@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // sm:scroll-smooth: scroll happens smoothly than jerky immediate.
+    //@NOTE: sm:scroll-smooth: scroll happens smoothly than jerky immediate.
     <html lang="en" className="sm:scroll-smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased

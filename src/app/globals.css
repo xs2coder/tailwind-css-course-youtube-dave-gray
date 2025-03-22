@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@config "../../tailwind.config.js";
+
 /* @tailwind base; */
 /* @tailwind components; */
 @tailwind utilities;
@@ -29,7 +31,7 @@ body {
 
 @layer utilities {
   .section-min-height {
-    /* header is 68px */
+    /* @NOTE: header is 68px */
     min-height: calc(100vh - 68px);
   }
 }
